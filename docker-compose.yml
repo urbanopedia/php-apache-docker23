@@ -4,8 +4,8 @@ services:
     image: php:8.2-apache
     container_name: php8.2-apache
     ports:
-      - "8083:80"
-      - "447:443"
+      - 80
+      - 443
       
     volumes:
       - ./app:/var/www/html/
