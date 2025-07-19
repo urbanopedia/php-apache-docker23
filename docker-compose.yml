@@ -21,7 +21,7 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
   adminer:
-    image: adminer:4.8.1
+    image: adminer:latest
     container_name: adminer
     ports:
       - 8080
