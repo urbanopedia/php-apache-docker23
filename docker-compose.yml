@@ -6,7 +6,6 @@ services:
     ports:
       - 80
       - 443
-      
     volumes:
       - ./app:/var/www/html/
     depends_on:
