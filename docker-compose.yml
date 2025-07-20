@@ -1,7 +1,7 @@
 
 services:
   web:
-    image: cimg/php:8.2.27
+    image: serversideup/php:7.4.33-fpm-nginx
     container_name: PHPapache
     ports:
       - 80
