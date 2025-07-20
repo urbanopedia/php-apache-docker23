@@ -1,7 +1,7 @@
 
 services:
   web:
-    image: serversideup/php:7.4.33-fpm-nginx
+    image: drupalci/php-7.4-apache:production
     container_name: PHPapache
     ports:
       - 80
