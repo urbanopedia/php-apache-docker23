@@ -8,5 +8,5 @@ services:
       - 443
     volumes:
       - ./app:/var/www/html/
-      - ./config/php:/usr/local/etc/ 
+      - ./config/php:/usr/local/etc/php/
    
